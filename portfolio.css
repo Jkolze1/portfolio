@@ -1,0 +1,179 @@
+/*Jacqueline Kolze
+Web Portfolio CSS
+01/31/2018*/
+
+/*body*/
+body 
+{
+background-color:#FFFFFF;
+color:#333333;
+font-family:Helvetica, "Times New Roman", serif;
+font-size:1.125em;
+}
+  /*Header*/
+h1 { 
+background-color:white;
+background-position: left;
+background-repeat: no-repeat;
+height: 120px;
+font-family: Helvetica,"Times New Roman",sans-serif;
+text-align:center;
+} 
+
+
+/*Navigation*/
+nav{
+font-family: Helvetica,"Times New Roman",sans-serif;
+font-size:0.9em;
+text-align:left;
+}
+
+nav ul { 
+list-style-type: none;
+text-align: left;
+font-size: 0.9em;
+text-decoration: none;
+color:black;
+}
+
+/* Logo/
+#logo { 
+float: left;
+ }
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 40px 200px;
+	padding-left:10px ;
+    text-decoration: none;
+	font-size:0.9em;
+}
+
+
+/* Main content */
+.main {
+    margin-top:10 px; /* Add a top margin to avoid content overlay */
+}
+
+/*Headings*/
+h2{
+background-color:#FFFFFF;
+color:grey;
+font-family:Helvetica,"Times New Roman", serif;
+font-weight: bold;
+font-size:1.125em;
+margin-top:1px;
+margin-bottom:0;
+margin-left:150px;
+}
+
+h3{
+font-family:Helvetica,"Times New Roman", serif;
+font-size:1.125em;
+margin-left:75px;
+font-weight:normal;
+margin-top:-20px;
+color:black; 
+}
+
+/*Paragraph Style*/
+p {
+background-color:#FFFFFF;
+color:grey;
+font-family:Helvetica,"Times New Roman", serif;
+text-align:center;
+}
+
+
+links{
+text-decorations:none;
+color:grey; 
+}
+
+
+/* Images */
+img{
+max-height: 100%;
+max-width: 100%;
+margin-left:0px;
+}
+
+
+/*Columns*/
+.column {
+    float: left;
+    width: 33.33%;
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+   font-size:0.9em ;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+	font-family:Helvetica,"Times New Roman", serif;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	
+	
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:#8FD3C9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family:Helvetica,"Times New Roman", serif;
+	font-size:0.9em ;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
+	font-family:Helvetica,"Times New Roman", serif;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #white;
+    padding: 21px;
+}
+/* unvisited link */
+a:link {
+    color: grey;
+	 text-decoration:  none;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+	 text-decoration:  none;
+}
